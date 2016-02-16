@@ -6,14 +6,14 @@ CLibpq
 [![License MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](https://tldrlegal.com/license/mit-license)
 [![Slack Status](http://slack.zewo.io/badge.svg)](http://slack.zewo.io)
 
-**CLibpq** provides PostgreSQL for **Swift 2.2**.
+**CLibpq-OSX** provides PostgreSQL for **Swift 2.2**.
 
 ## Installation
 
 - Install [`libpq`](http://www.postgresql.org/docs/9.1/static/libpq.html)
 
 ```bash
-$ apt-get install libpq-dev
+$ brew install postgresql
 ```
 
 - Add `CLibpq` to your `Package.swift`
@@ -23,7 +23,7 @@ import PackageDescription
 
 let package = Package(
 	dependencies: [
-		.Package(url: "https://github.com/Zewo/CLibpq.git", majorVersion: 0, minor: 1)
+		.Package(url: "https://github.com/Zewo/CLibpq-OSX.git", majorVersion: 0, minor: 2)
 	]
 )
 
@@ -31,11 +31,11 @@ let package = Package(
 
 ## Community
 
-[![Slack](http://s13.postimg.org/ybwy92ktf/Slack.png)](https://zewo-slackin.herokuapp.com)
+[![Slack](http://s13.postimg.org/ybwy92ktf/Slack.png)](http://slack.zewo.io)
 
-Join us on [Slack](https://zewo-slackin.herokuapp.com).
+Join us on [Slack](http://slack.zewo.io).
 
 License
 -------
 
-**CLibpq** is released under the MIT license. See LICENSE for details.
+**CLibpq-OSX** is released under the MIT license. See LICENSE for details.
